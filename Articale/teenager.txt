@@ -1,0 +1,47 @@
+Coffee : Brewed Coffee : Short
+Coffee : Brewed Coffee : Tall
+Coffee : Brewed Coffee : Grande
+Coffee : Brewed Coffee : Venti
+Classic Espresso Drinks : Caffè Latte : Short Nonfat Milk
+Classic Espresso Drinks : Caffè Latte : 2% Milk
+Classic Espresso Drinks : Caffè Latte : Soymilk
+Classic Espresso Drinks : Caffè Latte : Tall Nonfat Milk
+Classic Espresso Drinks : Caffè Latte : 2% Milk
+Classic Espresso Drinks : Caffè Latte : Soymilk
+Classic Espresso Drinks : Caffè Latte : Soymilk
+Classic Espresso Drinks : Caffè Latte : Soymilk
+Classic Espresso Drinks : Caffè Mocha (Without Whipped Cream) : Soymilk
+Classic Espresso Drinks : Vanilla Latte (Or Other Flavoured Latte) : Soymilk
+Classic Espresso Drinks : Caffè Americano : Short
+Classic Espresso Drinks : Caffè Americano : Tall
+Classic Espresso Drinks : Caffè Americano : Grande
+Classic Espresso Drinks : Caffè Americano : Venti
+Classic Espresso Drinks : Cappuccino : Short Nonfat Milk
+Classic Espresso Drinks : Cappuccino : 2% Milk
+Classic Espresso Drinks : Cappuccino : Soymilk
+Classic Espresso Drinks : Cappuccino : Tall Nonfat Milk
+Classic Espresso Drinks : Cappuccino : 2% Milk
+Classic Espresso Drinks : Cappuccino : Soymilk
+Classic Espresso Drinks : Cappuccino : Grande Nonfat Milk
+Classic Espresso Drinks : Cappuccino : 2% Milk
+Classic Espresso Drinks : Cappuccino : Soymilk
+Classic Espresso Drinks : Cappuccino : Venti Nonfat Milk
+Classic Espresso Drinks : Cappuccino : 2% Milk
+Classic Espresso Drinks : Cappuccino : Soymilk
+Classic Espresso Drinks : Espresso : Solo
+Classic Espresso Drinks : Espresso : Doppio
+Classic Espresso Drinks : Skinny Latte (Any Flavour) : Short Nonfat Milk
+Classic Espresso Drinks : Skinny Latte (Any Flavour) : Tall Nonfat Milk
+Signature Espresso Drinks : Caramel Macchiato : Short Nonfat Milk
+Signature Espresso Drinks : Caramel Macchiato : 2% Milk
+Signature Espresso Drinks : Caramel Macchiato : Soymilk
+Tazo® Tea Drinks : Tazo® Tea : Short
+Tazo® Tea Drinks : Tazo® Tea : Tall
+Tazo® Tea Drinks : Tazo® Tea : Grande
+Tazo® Tea Drinks : Tazo® Tea : Venti
+Tazo® Tea Drinks : Tazo® Full-Leaf Tea Latte : 2% Milk
+Tazo® Tea Drinks : Tazo® Full-Leaf Tea Latte : Soymilk
+Tazo® Tea Drinks : Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos) : 2% Milk
+Tazo® Tea Drinks : Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos) : Soymilk
+Shaken Iced Beverages : Iced Brewed Coffee (With Classic Syrup) : Tall
+Shaken Iced Beverages : Shaken Iced Tazo® Tea (With Classic Syrup) : Tall
