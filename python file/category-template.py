@@ -10,7 +10,7 @@ def main():
 
     for i in beverage_index:
         for j in range(i[0], i[1]):
-            print("%s : %s : %d" %(raw_data['Beverage'][j], raw_data['Beverage_prep'][j], raw_data[' Sugars (g)'][j]))
+            print("%s : %s : %d" %(raw_data['Beverage_category'][j], raw_data['Beverage_prep'][j], raw_data[' Sugars (g)'][j]))
         print('----------------------------------------')
 
 
