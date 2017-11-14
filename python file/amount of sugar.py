@@ -29,7 +29,7 @@ def main():
 """
 def dot_filter(data):
     filtered_data = dict()
-    for i in range(len(data['Beverage'])):
+    for i in range(151, 238):
         if data['Beverage'][i] not in filtered_data:
             filtered_data[data['Beverage'][i]] = [data[' Sugars (g)'][i]]
         else:
@@ -49,11 +49,12 @@ def dot_filter(data):
  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
 """
 def dot_graph(data):
-    chart = pg.Dot(show_legend=False, style=DefaultStyle)
-    chart.title = 'Amount of suger in Starbucks Beverage'
+    chart = pg.Bar()#(show_legend=False, style=DefaultStyle)
+    chart.title = 'Amount of suger in Starbucks Beverage (Cold)'
     for i in data:
-        chart.add(i, sorted(data[i]))
+        chart.add(i, (sum(data[i])/len(data[i])))
     chart.render_to_file('D:/test.svg')
+
 
 
 main()

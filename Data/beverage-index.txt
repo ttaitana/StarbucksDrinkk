@@ -1,9 +1,14 @@
+﻿Hot beverages
+
 Coffee = 0 - 4
-Classic Espresso Drinks = 4 - 62
+Classic Espresso Drinks = 5 - 62
 Signature Espresso Drinks = 62 - 102
-Tazo® Tea Drinks = 102 - 154
-Shaken Iced Beverages = 154 - 172
-Smoothies = 172 - 181
-Frappuccino® Blended Coffee = 181 - 217
-Frappuccino® Light Blended Coffee = 217 - 229
-Frappuccino® Blended Crème = 229 - 238
+Tazo® Tea Drinks = 102 - 151
+
+Cold Beverages
+
+Shaken Iced Beverages = 152 - 168
+Smoothies = 169 - 177
+Frappuccino® Blended Coffee = 179 - 213
+Frappuccino® Light Blended Coffee = 214 - 225
+Frappuccino® Blended Crème = 226 - 238
