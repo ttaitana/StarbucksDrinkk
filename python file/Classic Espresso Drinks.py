@@ -1,5 +1,9 @@
 import pandas as pd
 import pygal as pg
+from pygal.style import Style
+custom_style = Style(
+  background='transparent',
+  colors=('#00723F', '#0B421A', '#00723F', '#EAC784', '#e5a632', '#604C4C', '#BBBBBB', '#AAAAAA'))
 
 def teenager():
     raw_data = pd.read_csv('../Data/starbucks_drinkMenu_expanded.csv')
@@ -18,9 +22,10 @@ def teenager():
     sugar_avg /= 58
 
 
-    graph = pg.SolidGauge(show_legend=False,
-            half_pie=True, inner_radius=0.70,
-            style=pg.style.styles['default'](value_font_size=10))
+    graph = pg.SolidGauge(show_legend=True,
+            half_pie=True,
+            inner_radius=0.70,
+            style=custom_style,legend_at_bottom=True)
 
     graph.title             =   raw_data['Beverage_category'][4]
     percent_formatter       =   lambda x: '{:.4g}%'.format(x)
