@@ -55,46 +55,14 @@ def dot_graph(data):
     chart = pg.Bar(style=custom_style,legend_at_bottom=True)#(show_legend=False, style=DefaultStyle)
     chart.title = 'Amount of suger in Starbucks Beverage'
     key = [i for i in data]
-    chart.add(key[1], [{
-        'value' : round((sum(data[key[1]])/len(data[key[1]])), 2),
-        'label' : key[1],
-        'xlink': '../html_graph/Classic_Espresso_drinks.html'
+    link = ['../html_graph/Classic_Espresso_drinks.html', '#', '#', '#', '#', '#', '#', '#']
+    for i in range(1, len(data)):
+        chart.add(key[i], [{
+        'value' : round((sum(data[key[i]])/len(data[key[i]])), 2),
+        'label' : key[i],
+        'xlink': link[i-1]
         }])
-    chart.add(key[2], [{
-        'value' : round((sum(data[key[2]])/len(data[key[2]])), 2),
-        'label' : key[2],
-        'xlink': '#'
-        }])
-    chart.add(key[3], [{
-        'value' : round((sum(data[key[3]])/len(data[key[3]])), 2),
-        'label' : key[3],
-        'xlink': '#'
-        }])
-    chart.add(key[4], [{
-        'value' : round((sum(data[key[4]])/len(data[key[4]])), 2),
-        'label' : key[4],
-        'xlink': '#'
-        }])
-    chart.add(key[5], [{
-        'value' : round((sum(data[key[5]])/len(data[key[5]])), 2),
-        'label' : key[5],
-        'xlink': '#'
-        }])
-    chart.add(key[6], [{
-        'value' : round((sum(data[key[6]])/len(data[key[6]])), 2),
-        'label' : key[6],
-        'xlink': '#'
-        }])
-    chart.add(key[7], [{
-        'value' : round((sum(data[key[7]])/len(data[key[7]])), 2),
-        'label' : key[7],
-        'xlink': '#'
-        }])
-    chart.add(key[8], [{
-        'value' : round((sum(data[key[8]])/len(data[key[8]])), 2),
-        'label' : key[8],
-        'xlink': '#'
-        }])
+
     chart.render_to_file('D:/test.svg')
 
 
