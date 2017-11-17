@@ -59,7 +59,7 @@ def dot_graph(data):
     #Hot Beverages
     '../html_graph/Classic_Espresso_drinks.html', #Classic_Espresso
     '../html_graph/Signature Espresso Drinks.html', #Signature Espresso Drinks.html
-    '#',    #Tazo® Tea Drinks
+    '../html_graph/Tazo® Tea Drinks.html',    #Tazo® Tea Drinks
     #Cold Beverages
     '#',#Shaken Iced Beverages
     '#', #Smoothies
