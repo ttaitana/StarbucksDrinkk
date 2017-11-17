@@ -44,7 +44,7 @@ def dot_filter(data):
 """
 =========================================================================================================================================================
 
- ██████╗ ██████╗  █████╗ ██████╗ ██╗  ██╗    ███╗   ███╗ █████╗ ██╗  ██╗███████╗██████╗ 
+ ██████╗ ██████╗  █████╗ ██████╗ ██╗  ██╗    ███╗   ███╗ █████╗ ██╗  ██╗███████╗██████╗
 ██╔════╝ ██╔══██╗██╔══██╗██╔══██╗██║  ██║    ████╗ ████║██╔══██╗██║ ██╔╝██╔════╝██╔══██╗
 ██║  ███╗██████╔╝███████║██████╔╝███████║    ██╔████╔██║███████║█████╔╝ █████╗  ██████╔╝
 ██║   ██║██╔══██╗██╔══██║██╔═══╝ ██╔══██║    ██║╚██╔╝██║██╔══██║██╔═██╗ ██╔══╝  ██╔══██╗
@@ -55,7 +55,17 @@ def dot_graph(data):
     chart = pg.Bar(style=custom_style,legend_at_bottom=True)#(show_legend=False, style=DefaultStyle)
     chart.title = 'Amount of suger in Starbucks Beverage'
     key = [i for i in data]
-    link = ['../html_graph/Classic_Espresso_drinks.html', '#', '#', '#', '#', '#', '#', '#']
+    link = [
+    #Hot Beverages
+    '../html_graph/Classic_Espresso_drinks.html', #Classic_Espresso
+    '../html_graph/Signature Espresso Drinks.html', #Signature Espresso Drinks.html
+    '#',    #Tazo® Tea Drinks
+    #Cold Beverages
+    '#',#Shaken Iced Beverages
+    '#', #Smoothies
+    '#', #Frappuccino® Blended Coffee
+    '#', #Frappuccino® Light Blended Coffee
+    '#'] #Frappuccino® Blended Crème
     for i in range(1, len(data)):
         chart.add(key[i], [{
         'value' : round((sum(data[key[i]])/len(data[key[i]])), 2),
@@ -63,7 +73,7 @@ def dot_graph(data):
         'xlink': link[i-1]
         }])
 
-    chart.render_to_file('D:/test.svg')
+    chart.render_to_file('C:/Users/wAnnO/Desktop/StarbucksDrinkk/docs/graph/amount_of_sugar.svg')
 
 
 
