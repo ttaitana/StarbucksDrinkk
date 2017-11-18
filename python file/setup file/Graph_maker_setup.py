@@ -11,7 +11,7 @@ def main():
     raw_data = pd.read_csv('../Data/starbucks_drinkMenu_expanded.csv')
 
     beverage = dict() #making dict for {beverage:[vlues]}
-    for i in range(150, 168): #chage Number to index (see index in Data/beverage-index)
+    for i in range(169, 177): #chage Number to index (see index in Data/beverage-index)
         if raw_data['Beverage'][i] not in beverage:
             beverage[raw_data['Beverage'][i]] = [raw_data[' Sugars (g)'][i]]
         else:
@@ -30,13 +30,13 @@ def main():
             inner_radius=0.70,
             style=custom_style,legend_at_bottom=True)
 
-    graph.title             =   raw_data['Beverage_category'][150] #change name to index number between 1st - last index of beverage
+    graph.title             =   raw_data['Beverage_category'][169] #change name to index number between 1st - last index of beverage
     percent_formatter       =   lambda x: '{:.4g}%'.format(x)
     graph.value_formatter   =   percent_formatter
 
     for i in beverage:
         graph.add(i, ( sum(beverage[i]) / len(beverage[i]) ) / sugar_avg*100)
 
-    graph.render_to_file('D:\Shaken.svg') #eg: 'D:/Graph.svg'
+    graph.render_to_file('D:\Smoothies.svg')
 
 main()
