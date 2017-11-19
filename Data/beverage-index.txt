@@ -1,7 +1,7 @@
 ﻿Hot beverages
 
 Coffee = 0 - 5
-Classic Espresso Drinks = 5 - 62
+Classic Espresso Drinks = 4 - 62
 Signature Espresso Drinks = 62 - 102
 Tazo® Tea Drinks = 102 - 151
 

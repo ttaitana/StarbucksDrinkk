@@ -8,7 +8,7 @@ custom_style = Style(
   value_colors = '#212320')
 
 def main():
-    raw_data = pd.read_csv('Data/starbucks_drinkMenu_expanded.csv')
+    raw_data = pd.read_csv('../Data/starbucks_drinkMenu_expanded.csv')
 
     beverage = dict() #making dict for {beverage:[vlues]}
     for i in range(214, 225): #chage Number to index (see index in Data/beverage-index)
@@ -22,21 +22,22 @@ def main():
     for i in beverage:
         sugar_avg += sum(beverage[i])
     sugar_avg /= 58
-
+    print(sugar_avg)
+    print(beverage)
 
 #graph making zone
-    graph = pg.SolidGauge(show_legend=True,
-            half_pie=True,
-            inner_radius=0.70,
-            style=custom_style,legend_at_bottom=True)
-
-    graph.title             =   raw_data['Beverage_category'][214] #change name to index number between 1st - last index of beverage
-    percent_formatter       =   lambda x: '{:.4g}%'.format(x)
-    graph.value_formatter   =   percent_formatter
-
-    for i in beverage:
-        graph.add(i, ( sum(beverage[i]) / len(beverage[i]) ) / sugar_avg*100)
-
-    graph.render_to_file('D:\Frappuccino® Light Blended Coffee.svg')
+    # graph = pg.SolidGauge(show_legend=True,
+    #         half_pie=True,
+    #         inner_radius=0.70,
+    #         style=custom_style,legend_at_bottom=True)
+    #
+    # graph.title             =   raw_data['Beverage_category'][214] #change name to index number between 1st - last index of beverage
+    # percent_formatter       =   lambda x: '{:.4g}%'.format(x)
+    # graph.value_formatter   =   percent_formatter
+    #
+    # for i in beverage:
+    #     graph.add(i, ( sum(beverage[i]) / len(beverage[i]) ) / sugar_avg*100)
+    #
+    # graph.render_to_file('D:\Frappuccino® Light Blended Coffee.svg')
 
 main()

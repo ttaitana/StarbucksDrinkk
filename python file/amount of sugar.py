@@ -3,7 +3,7 @@ import pygal as pg
 from pygal.style import Style
 custom_style = Style(
   background='transparent',
-  colors=('#00723F', '#0B421A', '#00723F', '#EAC784', '#e5a632', '#604C4C', '#BBBBBB', '#AAAAAA'))
+  colors=('#1E6B7F', '#0B421A', '#00723F', '#EAC784', '#e5a632', '#604C4C', '#BBBBBB', '#AAAAAA'))
 
 """
 ███╗   ███╗ █████╗ ██╗███╗   ██╗    ███████╗██╗   ██╗███╗   ██╗ ██████╗████████╗██╗ ██████╗ ███╗   ██╗
@@ -61,11 +61,17 @@ def dot_graph(data):
     '../html_graph/Signature Espresso Drinks.html', #Signature Espresso Drinks.html
     '../html_graph/Tazo® Tea Drinks.html',    #Tazo® Tea Drinks
     #Cold Beverages
-    '#',#Shaken Iced Beverages
-    '#', #Smoothies
-    '#', #Frappuccino® Blended Coffee
-    '#', #Frappuccino® Light Blended Coffee
-    '#'] #Frappuccino® Blended Crème
+    '../html_graph/Shaken Iced.html',#Shaken Iced Beverages
+    '../html_graph/Smoothies.html', #Smoothies
+    '../html_graph/Frappuccino® Blended Coffee.html', #Frappuccino® Blended Coffee
+    '../html_graph/Frappuccino® Light Blended Coffee.html', #Frappuccino® Light Blended Coffee
+    '../html_graph/Frappuccino® Blended Crème.html'] #Frappuccino® Blended Crème
+    chart.add('Sugar average', [
+        {
+        'value' : round(sum([sum(data[i])/len(data[i]) for i in data]) / len(data), 2),
+        'lable' : 'Sugar average'
+        }
+    ])
     for i in range(1, len(data)):
         chart.add(key[i], [{
         'value' : round((sum(data[key[i]])/len(data[key[i]])), 2),
