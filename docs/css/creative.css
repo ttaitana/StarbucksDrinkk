@@ -4,8 +4,9 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
-
+  /*font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;*/
+  font-family: 'Work Sans', sans-serif;
+}
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -15,7 +16,7 @@ hr.light {
   border-color: #00723F; }
 
 a {
-  color: #00723F;
+  color: #4D4D4D;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
@@ -53,7 +54,8 @@ section {
 ::selection {
   color: #fff;
   background: #212529;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
 img::selection {
   color: #fff;
@@ -225,3 +227,12 @@ header.masthead {
     background-color: #00af61; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem ##00af61 !important; }
+
+.memberss .col-lg-4{
+  text-align: center;
+
+}
+
+.memberss ul{
+  padding: 0;
+}
