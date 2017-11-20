@@ -21,7 +21,7 @@ def main():
     sugar_avg = 0
     for i in beverage:
         sugar_avg += sum(beverage[i])
-    sugar_avg /= 58
+    sugar_avg /= 12
 
 
 #graph making zone

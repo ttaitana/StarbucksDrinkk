@@ -21,9 +21,8 @@ def main():
     sugar_avg = 0
     for i in beverage:
         sugar_avg += sum(beverage[i])
-    sugar_avg /= 58
-    print(sugar_avg)
-    print(beverage)
+    sugar_avg /= 11
+
 
 #graph making zone
     # graph = pg.SolidGauge(show_legend=True,
