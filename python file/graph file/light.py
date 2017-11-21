@@ -11,7 +11,7 @@ def main():
     raw_data = pd.read_csv('../../Data/starbucks_drinkMenu_expanded.csv')
 
     beverage = dict() #making dict for {beverage:[vlues]}
-    for i in range(179, 213): #chage Number to index (see index in Data/beverage-index)
+    for i in range(214, 225): #chage Number to index (see index in Data/beverage-index)
         if raw_data['Beverage'][i] not in beverage:
             beverage[raw_data['Beverage'][i]] = [raw_data[' Sugars (g)'][i]]
         else:

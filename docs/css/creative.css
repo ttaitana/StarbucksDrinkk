@@ -228,11 +228,38 @@ header.masthead {
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem ##00af61 !important; }
 
-.memberss .col-lg-4{
-  text-align: center;
 
+.sugar_graph{
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+
+.memberss{
+  padding: 150px;
+  background-color: #f8f9fa!important;
+}
+.memberss .text-center{
+  padding-bottom: 30px;
+}
+
+.memberss .col-sm-4{
+  text-align: center;
+  margin: 10px 0 0;
+  padding-top: 1.5rem;
+
+
+}
+.memberss #each:hover{
+  background-color: white;
+  transition: .5s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .memberss ul{
   padding: 0;
+}
+
+.memberss p{
+  font-size: 130%;
 }
