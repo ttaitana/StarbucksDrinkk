@@ -8,7 +8,7 @@ custom_style = Style(
   value_colors = '#212320')
 
 def main():
-    raw_data = pd.read_csv('Data/starbucks_drinkMenu_expanded.csv')
+    raw_data = pd.read_csv('../../Data/starbucks_drinkMenu_expanded.csv')
 
     beverage = dict() #making dict for {beverage:[vlues]}
     for i in range(150, 168): #chage Number to index (see index in Data/beverage-index)
@@ -37,6 +37,6 @@ def main():
     for i in beverage:
         graph.add(i, ( sum(beverage[i]) / len(beverage[i]) ) / sugar_avg*100)
 
-    graph.render_to_file('D:\Shaken.svg') #eg: 'D:/Graph.svg'
+    graph.render_to_file('C:/Users/wAnnO/Desktop/StarbucksDrinkk/docs/graph/Shaken.svg') #eg: 'D:/Graph.svg'
 
 main()

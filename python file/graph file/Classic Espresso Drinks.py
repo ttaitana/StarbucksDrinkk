@@ -6,7 +6,7 @@ custom_style = Style(
   colors=('#00723F', '#0B421A', '#00723F', '#EAC784', '#e5a632', '#604C4C', '#BBBBBB', '#AAAAAA'))
 
 def teenager():
-    raw_data = pd.read_csv('../Data/starbucks_drinkMenu_expanded.csv')
+    raw_data = pd.read_csv('../../Data/starbucks_drinkMenu_expanded.csv')
     beverage = dict()
     #get Beverage for Classic Espresso Drinks
     for i in range(4, 62):
@@ -34,6 +34,6 @@ def teenager():
     for i in beverage:
         graph.add(i, (sum(beverage[i])/len(beverage[i]))/sugar_avg*100)
 
-    graph.render_to_file('D:/sugar.svg')
+    graph.render_to_file('C:/Users/wAnnO/Desktop/StarbucksDrinkk/docs/graph/sugar.svg')
 
 teenager()
