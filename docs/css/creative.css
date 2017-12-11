@@ -10,7 +10,8 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #00723F; }
+  border-color: #00723F;
+  padding-bottom: 30px; }
 
 hr.light {
   border-color: #FFFFFF; }
@@ -103,17 +104,17 @@ body {
       border-color: transparent;
       background-color: transparent; }
       #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 0.7); }
+        color: #212529; }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: #fff; }
+          color: #00723F; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link {
         padding: 0.5rem 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(255, 255, 255, 0.7); }
+        color: #212529; }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: #fff; }
+          color: #00723F; }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
         background-color: #fff; }
@@ -131,8 +132,15 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
+
   background-image: url("../img/header.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   background-position: center center;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -149,7 +157,6 @@ header.masthead {
       font-size: 1.15rem; } }
   @media (min-width: 992px) {
     header.masthead {
-      height: 100vh;
       min-height: 650px;
       padding-top: 0;
       padding-bottom: 0; }
@@ -159,6 +166,27 @@ header.masthead {
     header.masthead h1 {
       font-size: 4rem; } }
 
+.parallax { 
+    color: white;
+    /* The image used */
+    background-image: url("../img/header2.jpg");
+    /* Full height */
+    height: 70%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 { 
+    /* The image used */
+    background-image: url("../img/ending.png");
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+  }
 .service-box {
   max-width: 400px; }
 
@@ -231,12 +259,11 @@ header.masthead {
 
 .sugar_graph{
   margin-bottom: 150px;
-  margin-top: 150px;
 }
 
 
 .memberss{
-  padding: 150px;
+  padding: 100px;
   background-color: #f8f9fa!important;
 }
 .memberss .text-center{

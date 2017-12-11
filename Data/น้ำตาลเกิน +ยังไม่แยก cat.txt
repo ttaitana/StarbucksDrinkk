@@ -4,6 +4,8 @@
 28	Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)		2% Milk 						43
 39	Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	Venti Nonfat Milk 					45
 40	Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	2% Milk 						44
+
+
 73	Signature Espresso Drinks						Caramel Macchiato	Venti Nonfat Milk 		41
 74	Signature Espresso Drinks						Caramel Macchiato	2% Milk 			40
 79	Signature Espresso Drinks White Chocolate Mocha (Without Whipped Cream)	Tall Nonfat Milk					45
@@ -26,6 +28,8 @@
 101	Signature Espresso Drinks	Caramel Apple Spice (Without Whipped Cream)	Tall						49
 102	Signature Espresso Drinks	Caramel Apple Spice (Without Whipped Cream)	Grande						65
 103	Signature Espresso Drinks	Caramel Apple Spice (Without Whipped Cream)	Venti						83
+
+
 110	Tazo® Tea Drinks	Tazo® Chai Tea Latte	Grande Nonfat Milk									43
 111	Tazo® Tea Drinks	Tazo® Chai Tea Latte	2% Milk											42
 113	Tazo® Tea Drinks	Tazo® Chai Tea Latte	Venti Nonfat Milk									54
@@ -43,16 +47,21 @@
 138	Tazo® Tea Drinks	Tazo® Full-Leaf Tea Latte	2% Milk										38
 149	Tazo® Tea Drinks	Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos)	Venti Nonfat Milk 						39
 150	Tazo® Tea Drinks	Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos)	2% Milk								38
+
+
 169	Shaken Iced Beverages	Shaken Iced Tazo® Tea Lemonade (With Classic Syrup)	Venti						49
 176	Smoothies	Strawberry Banana Smoothie	Grande Nonfat Milk								41
 177	Smoothies	Strawberry Banana Smoothie	2% Milk										41
 178	Smoothies	Strawberry Banana Smoothie	Soymilk										40
+
+
 182	Frappuccino® Blended Coffee	Coffee	Grande Nonfat Milk									50
 183	Frappuccino® Blended Coffee	Coffee	Whole Milk										50
 184	Frappuccino® Blended Coffee	Coffee	Soymilk											47
 185	Frappuccino® Blended Coffee	Coffee	Venti Nonfat Milk									69
 186	Frappuccino® Blended Coffee	Coffee	Whole Milk										69
 187	Frappuccino® Blended Coffee	Coffee	Soymilk											66
+
 188	Frappuccino® Blended Coffee	Mocha (Without Whipped Cream)	Tall Nonfat Milk						40
 189	Frappuccino® Blended Coffee	Mocha (Without Whipped Cream)	Whole Milk							40
 190	Frappuccino® Blended Coffee	Mocha (Without Whipped Cream)	Soymilk								38
@@ -62,18 +71,17 @@
 194	Frappuccino® Blended Coffee	Mocha (Without Whipped Cream)	Venti Nonfat Milk						76
 195	Frappuccino® Blended Coffee	Mocha (Without Whipped Cream)	Whole Milk							76
 196	Frappuccino® Blended Coffee	Mocha (Without Whipped Cream)	Soymilk								73
+
 197	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Tall Nonfat Milk						41
 198	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Whole Milk							41
 199	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Soymilk								39
 200	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Grande Nonfat Milk						59
-
-201-239
-
 201	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Whole Milk							59
 202	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Soymilk								56
 203	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Venti Nonfat Milk						77
 204	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Whole Milk							77
 205	Frappuccino® Blended Coffee	Caramel (Without Whipped Cream)	Soymilk								73
+
 206	Frappuccino® Blended Coffee	Java Chip (Without Whipped Cream)	Tall Nonfat Milk					44
 207	Frappuccino® Blended Coffee	Java Chip (Without Whipped Cream)	Whole Milk						44
 208	Frappuccino® Blended Coffee	Java Chip (Without Whipped Cream)	Soymilk							42
@@ -83,10 +91,12 @@
 212	Frappuccino® Blended Coffee	Java Chip (Without Whipped Cream)	Venti Nonfat Milk					84
 213	Frappuccino® Blended Coffee	Java Chip (Without Whipped Cream)	Whole Milk						84
 214	Frappuccino® Blended Coffee	Java Chip (Without Whipped Cream)	Soymilk							80
+
 220	Frappuccino® Light Blended Coffee	Mocha	Venti Nonfat Milk								42
 223	Frappuccino® Light Blended Coffee	Caramel	Venti Nonfat Milk								43
 225	Frappuccino® Light Blended Coffee	Java Chip	Grande Nonfat Milk							39
 226	Frappuccino® Light Blended Coffee	Java Chip	Venti Nonfat Milk							52
+
 227	Frappuccino® Blended Crème	Strawberries & Crème (Without Whipped Cream)	Tall Nonfat Milk				38
 230	Frappuccino® Blended Crème	Strawberries & Crème (Without Whipped Cream)	Grande Nonfat Milk				52
 231	Frappuccino® Blended Crème	Strawberries & Crème (Without Whipped Cream)	Whole Milk					52
@@ -94,20 +104,7 @@
 233	Frappuccino® Blended Crème	Strawberries & Crème (Without Whipped Cream)	Venti Nonfat Milk				69
 234	Frappuccino® Blended Crème	Strawberries & Crème (Without Whipped Cream)	Whole Milk					68
 235	Frappuccino® Blended Crème	Strawberries & Crème (Without Whipped Cream)	Soymilk						64
+
 236	Frappuccino® Blended Crème	Vanilla Bean (Without Whipped Cream)	Tall Nonfat Milk					38
 237	Frappuccino® Blended Crème	Vanilla Bean (Without Whipped Cream)	Whole Milk						38
 239	Frappuccino® Blended Crème	Vanilla Bean (Without Whipped Cream)	Grande Nonfat Milk					55
-
-
-
-
-
-
-
-
-
-
-
-
-
-

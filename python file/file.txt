@@ -1,0 +1,150 @@
+Coffee	Brewed Coffee	Short	0
+Coffee	Brewed Coffee	Tall	0
+Coffee	Brewed Coffee	Grande	0
+Coffee	Brewed Coffee	Venti	0
+Classic Espresso Drinks	Caffè Latte	Short Nonfat Milk	9
+Classic Espresso Drinks	Caffè Latte	2% Milk	9
+Classic Espresso Drinks	Caffè Latte	Soymilk	4
+Classic Espresso Drinks	Caffè Latte	Tall Nonfat Milk	14
+Classic Espresso Drinks	Caffè Latte	2% Milk	14
+Classic Espresso Drinks	Caffè Latte	Soymilk	6
+Classic Espresso Drinks	Caffè Latte	Grande Nonfat Milk	18
+Classic Espresso Drinks	Caffè Latte	2% Milk	17
+Classic Espresso Drinks	Caffè Latte	Soymilk	8
+Classic Espresso Drinks	Caffè Latte	Venti Nonfat Milk	23
+Classic Espresso Drinks	Caffè Latte	2% Milk	22
+Classic Espresso Drinks	Caffè Latte	Soymilk	11
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	Short Nonfat Milk	17
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	2% Milk	17
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	Soymilk	13
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	Tall Nonfat Milk	27
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	2% Milk	26
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	Soymilk	20
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	Grande Nonfat Milk	34
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	2% Milk	34
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	Soymilk	26
+Classic Espresso Drinks	Caffè Mocha (Without Whipped Cream)	Soymilk	33
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	Short Nonfat Milk	18
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	2% Milk	17
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	Soymilk	13
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	Tall Nonfat Milk	27
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	2% Milk	27
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	Soymilk	20
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	Grande Nonfat Milk	35
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	2% Milk	35
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	Soymilk	26
+Classic Espresso Drinks	Vanilla Latte (Or Other Flavoured Latte)	Soymilk	33
+Classic Espresso Drinks	Caffè Americano	Short	0
+Classic Espresso Drinks	Caffè Americano	Tall	0
+Classic Espresso Drinks	Caffè Americano	Grande	0
+Classic Espresso Drinks	Caffè Americano	Venti	0
+Classic Espresso Drinks	Cappuccino	Short Nonfat Milk	7
+Classic Espresso Drinks	Cappuccino	2% Milk	7
+Classic Espresso Drinks	Cappuccino	Soymilk	3
+Classic Espresso Drinks	Cappuccino	Tall Nonfat Milk	8
+Classic Espresso Drinks	Cappuccino	2% Milk	8
+Classic Espresso Drinks	Cappuccino	Soymilk	4
+Classic Espresso Drinks	Cappuccino	Grande Nonfat Milk	10
+Classic Espresso Drinks	Cappuccino	2% Milk	10
+Classic Espresso Drinks	Cappuccino	Soymilk	5
+Classic Espresso Drinks	Cappuccino	Venti Nonfat Milk	14
+Classic Espresso Drinks	Cappuccino	2% Milk	14
+Classic Espresso Drinks	Cappuccino	Soymilk	7
+Classic Espresso Drinks	Espresso	Solo	0
+Classic Espresso Drinks	Espresso	Doppio	0
+Classic Espresso Drinks	Skinny Latte (Any Flavour)	Short Nonfat Milk	8
+Classic Espresso Drinks	Skinny Latte (Any Flavour)	Tall Nonfat Milk	13
+Classic Espresso Drinks	Skinny Latte (Any Flavour)	Grande Nonfat Milk	16
+Classic Espresso Drinks	Skinny Latte (Any Flavour)	Venti Nonfat Milk	21
+Signature Espresso Drinks	Caramel Macchiato	Short Nonfat Milk	15
+Signature Espresso Drinks	Caramel Macchiato	2% Milk	15
+Signature Espresso Drinks	Caramel Macchiato	Soymilk	11
+Signature Espresso Drinks	Caramel Macchiato	Tall Nonfat Milk	24
+Signature Espresso Drinks	Caramel Macchiato	2% Milk	23
+Signature Espresso Drinks	Caramel Macchiato	Soymilk	17
+Signature Espresso Drinks	Caramel Macchiato	Grande Nonfat Milk	32
+Signature Espresso Drinks	Caramel Macchiato	2% Milk	32
+Signature Espresso Drinks	Caramel Macchiato	Soymilk	24
+Signature Espresso Drinks	Caramel Macchiato	Soymilk	31
+Signature Espresso Drinks	White Chocolate Mocha (Without Whipped Cream)	Short Nonfat Milk	29
+Signature Espresso Drinks	White Chocolate Mocha (Without Whipped Cream)	2% Milk	29
+Signature Espresso Drinks	White Chocolate Mocha (Without Whipped Cream)	Soymilk	25
+Signature Espresso Drinks	Hot Chocolate (Without Whipped Cream)	Short Nonfat Milk	23
+Signature Espresso Drinks	Hot Chocolate (Without Whipped Cream)	2% Milk	22
+Signature Espresso Drinks	Hot Chocolate (Without Whipped Cream)	Soymilk	18
+Signature Espresso Drinks	Hot Chocolate (Without Whipped Cream)	Tall Nonfat Milk	32
+Signature Espresso Drinks	Hot Chocolate (Without Whipped Cream)	2% Milk	32
+Signature Espresso Drinks	Hot Chocolate (Without Whipped Cream)	Soymilk	25
+Signature Espresso Drinks	Hot Chocolate (Without Whipped Cream)	Soymilk	32
+Signature Espresso Drinks	Caramel Apple Spice (Without Whipped Cream)	Short	33
+Tazo Tea Drinks	Tazo Chai Tea Latte	Short Nonfat Milk	21
+Tazo Tea Drinks	Tazo Chai Tea Latte	2% Milk	21
+Tazo Tea Drinks	Tazo Chai Tea Latte	Soymilk	18
+Tazo Tea Drinks	Tazo Chai Tea Latte	Tall Nonfat Milk	32
+Tazo Tea Drinks	Tazo Chai Tea Latte	2% Milk	32
+Tazo Tea Drinks	Tazo Chai Tea Latte	Soymilk	28
+Tazo Tea Drinks	Tazo Chai Tea Latte	Soymilk	37
+Tazo Tea Drinks	Tazo Green Tea Latte	Short Nonfat Milk	25
+Tazo Tea Drinks	Tazo Green Tea Latte	2% Milk	25
+Tazo Tea Drinks	Tazo Green Tea Latte	Soymilk	20
+Tazo Tea Drinks	Tazo Green Tea Latte	Soymilk	33
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	Short Nonfat Milk	16
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	2% Milk	15
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	Soymilk	13
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	Tall Nonfat Milk	23
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	2% Milk	23
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	Soymilk	19
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	Grande Nonfat Milk	31
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	2% Milk	30
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	Soymilk	25
+Tazo Tea Drinks	Tazo Full-Leaf Tea Latte	Soymilk	32
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	Short Nonfat Milk	16
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	2% Milk	15
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	Soymilk	13
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	Tall Nonfat Milk	23
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	2% Milk	23
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	Soymilk	19
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	Grande Nonfat Milk	31
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	2% Milk	30
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	Soymilk	25
+Tazo Tea Drinks	Tazo Full-Leaf Red Tea Latte (Vanilla Rooibos)	Soymilk	32
+
+
+
+Shaken Iced Beverages	Iced Brewed Coffee (With Classic Syrup)	Tall	15
+Shaken Iced Beverages	Iced Brewed Coffee (With Classic Syrup)	Grande	21
+Shaken Iced Beverages	Iced Brewed Coffee (With Classic Syrup)	Venti	31
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	Tall Nonfat Milk	18
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	2% Milk	18
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	Soymilk	17
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	Grande Nonfat Milk	24
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	2% Milk	24
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	Soymilk	22
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	Venti Nonfat Milk	36
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	2% Milk	36
+Shaken Iced Beverages	Iced Brewed Coffee (With Milk & Classic Syrup)	Soymilk	33
+Shaken Iced Beverages	Shaken Iced Tazo Tea (With Classic Syrup)	Tall	15
+Shaken Iced Beverages	Shaken Iced Tazo Tea (With Classic Syrup)	Grande	21
+Shaken Iced Beverages	Shaken Iced Tazo Tea (With Classic Syrup)	Venti	31
+Shaken Iced Beverages	Shaken Iced Tazo Tea Lemonade (With Classic Syrup)	Tall	24
+Shaken Iced Beverages	Shaken Iced Tazo Tea Lemonade (With Classic Syrup)	Grande	33
+Smoothies	Banana Chocolate Smoothie	Grande Nonfat Milk	34
+Smoothies	Banana Chocolate Smoothie	2% Milk	34
+Smoothies	Banana Chocolate Smoothie	Soymilk	31
+Smoothies	Orange Mango Banana Smoothie	Grande Nonfat Milk	37
+Smoothies	Orange Mango Banana Smoothie	2% Milk	37
+Smoothies	Orange Mango Banana Smoothie	Soymilk	36
+Frappuccino Blended Coffee	Coffee	Tall Nonfat Milk	36
+Frappuccino Blended Coffee	Coffee	Whole Milk	36
+Frappuccino Blended Coffee	Coffee	Soymilk	34
+Frappuccino Light Blended Coffee	Coffee	Tall Nonfat Milk	19
+Frappuccino Light Blended Coffee	Coffee	Grande Nonfat Milk	26
+Frappuccino Light Blended Coffee	Coffee	Venti Nonfat Milk	33
+Frappuccino Light Blended Coffee	Mocha	Tall Nonfat Milk	23
+Frappuccino Light Blended Coffee	Mocha	Grande Nonfat Milk	30
+Frappuccino Light Blended Coffee	Caramel	Tall Nonfat Milk	23
+Frappuccino Light Blended Coffee	Caramel	Grande Nonfat Milk	32
+Frappuccino Light Blended Coffee	Java Chip	Tall Nonfat Milk	27
+Frappuccino Blended Crème	Strawberries & Crème (Without Whipped Cream)	Whole Milk	37
+Frappuccino Blended Crème	Strawberries & Crème (Without Whipped Cream)	Soymilk	35
+Frappuccino Blended Crème	Vanilla Bean (Without Whipped Cream)	Soymilk	35
