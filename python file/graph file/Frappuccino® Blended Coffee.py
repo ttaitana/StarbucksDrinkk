@@ -30,7 +30,7 @@ def main():
             inner_radius=0.70,
             style=custom_style,legend_at_bottom=True)
 
-    graph.title             =   raw_data['Beverage_category'][214] #change name to index number between 1st - last index of beverage
+    graph.title             =   raw_data['Beverage_category'][183] #change name to index number between 1st - last index of beverage
     percent_formatter       =   lambda x: '{:.4g}%'.format(x)
     graph.value_formatter   =   percent_formatter
 
