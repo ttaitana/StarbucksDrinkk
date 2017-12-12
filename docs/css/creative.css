@@ -135,11 +135,12 @@ header.masthead {
 
   background-image: url("../img/header.jpg");
     height: 100%;
-    background-attachment: fixed;
+    background-position: center;
+/*    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  background-position: center center;
+  background-position: center center; */  
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
